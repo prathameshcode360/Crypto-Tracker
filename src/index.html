@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Crypto-Tracker</title>
+  </head>
+  <body>
+    <nav>
+      <div class="left-nav">
+        <a href="index.html" id="title">CRYPTO TRACKER</a>
+      </div>
+      <div class="right-nav">
+        <a href="index.html" id="nav-link">Home</a>
+        <a href="#" id="nav-link">Liked-Coins</a>
+        <div class="search-container">
+          <input
+            type="text"
+            id="search-box"
+            placeholder="search coins..."
+            autocomplete="off" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <table>
+        <thead>
+          <th>#</th>
+          <th>Coins</th>
+          <th>Name</th>
+          <th>
+            Price
+            <i class="fa-solid fa-arrow-up" id="price-up"></i>
+            <i class="fa-solid fa-arrow-down" id="price-down"></i>
+          </th>
+          <th>
+            Volume
+            <i class="fa-solid fa-arrow-up" id="volume-up"></i>
+            <i class="fa-solid fa-arrow-down" id="volume-down"></i>
+          </th>
+          <th>
+            Market-Cap
+            <i class="fa-solid fa-arrow-up" id="market-up"></i>
+            <i class="fa-solid fa-arrow-down" id="market-down"></i>
+          </th>
+          <th>favourite</th>
+        </thead>
+        <tbody id="coins-table-body">
+          <!-- we will do this part with js and api later -->
+        </tbody>
+      </table>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/096b27840e.js"
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
